@@ -1,0 +1,29 @@
+    1  git config --global user.name Stas
+    2  git config --global user.email stas2004ryzhulo@gmail.com
+    3  git clone https://github.com/Stas0nych/HW_10.git~ .
+    4  git clone https://github.com/Stas0nych/HW_10.git~ 
+    5  git clone https://github.com/Stas0nych/HW_10.git 
+    6  ді
+    7  ls
+    8  cd hw_10
+    9  touch text_ignore.txt
+   10  nano .gitignore
+   11  git status
+   12  git add .
+   13  git add.
+   14  git commit -m "task1"
+   15  touch main_test.txt
+   16  git add .
+   17  git commit -m "task2"
+   18  git checkout -b develop
+   19  touch develop_test.txt
+   20  git add .
+   21  git commit -m "task3.1"
+   22  nano develop_test.txt 
+   23  git status
+   24  git add .
+   25  git commit -m "task3.2"
+   26  git checkout main
+   27  git merge develop
+   28  git log
+   29  history > command_list.csv
